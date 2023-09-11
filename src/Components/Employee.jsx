@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Employee = (props) => {
+
   return (
     <div className="employees">
         <h3>Employee: {props.name}</h3>
@@ -9,4 +10,4 @@ const Employee = (props) => {
   )
 }
 
-export default Employee
+export default Employee;
