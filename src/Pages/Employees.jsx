@@ -83,9 +83,9 @@ function Employees() {
 
 
   return (
-    <div className="App bg-gray-300 min-h-screen">
+    <div className="">
       {showEmployees ? (
-        <div className="employees m-3">
+        <div className="employees">
 
           <div className='flex flex-wrap justify-center'>
             {employees.map((employee) => {
