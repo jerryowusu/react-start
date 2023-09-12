@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Customers from './Pages/Customers';
+import Dictionary from './Components/Dictionary';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Header>
         <Routes>
           <Route path='/' element={<Employees />} />
+          <Route path='/dictionary' element={<Dictionary />} />
           <Route path='/customers' element={<Customers />} />
         </Routes>
       </Header>
