@@ -6,7 +6,7 @@ const Dictionary = () => {
 
     useEffect(() => {
         console.log('state updated', word + ' ' + word2)
-    }, [word]);
+    },);
 
   return (
     <div>
